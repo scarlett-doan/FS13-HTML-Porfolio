@@ -4,21 +4,21 @@ Practice Git CLI, basic HTML elements and build short introduction about yoursel
 # Summary
 This is my basic porfolio using HTML:5. The project introduce how to use basic HTML elements and attribute in foundation level.
 There are some types of elements and attribute are used for this page:
-    - Headings
-    - Links
-    - Image
-    - Unordered list
-    - Divs
-    - Navigations
-    - Paragraphs
-    - Styling
-    - Section
-    - etc.
+- Headings
+- Links
+- Image
+- Unordered list
+- Divs
+- Navigations
+- Paragraphs
+- Styling
+- Section
+- etc.
 
 # Structure
 Two files:
-    - README.md: Summary introdution about this porfolio page.
-    - index.html: HTML file to build porfolio page
+- README.md: Summary introdution about this porfolio page.
+- index.html: HTML file to build porfolio page
 
 # Technologies:
 HTML 5
