@@ -7,15 +7,24 @@
     <title>Scarlett Doan Porfolio</title>
 </head>
 <body>
+    <nav>
+        <a href="#info">My Info</a>
+         || 
+        <a href="#skills">My Skills</a>
+         || 
+        <a href="#exp">Experiences</a>
+         || 
+        <a href="#chat">Chat with me</a>
+    </nav>
     <header>
-        <h1>Welcome to Scarlett's island</h1>
+        <h1 id="info">Welcome to Scarlett's Island</h1>
         <img src="https://img.freepik.com/premium-photo/red-fox-with-blue-fire-avatar-illustration_691560-3123.jpg?w=2000" width="320" height="240"/>
         <div>
             <i>Full-stack developer traninee @ Intigify Oy</i>
             <br>
-            <p><b>Full Name:</b>Scarlett Doan</p>
-            <p><b>Date of Birth:</b>21/09/1991</p>
-            <p><b>Place of Birth:</b>Viet Nam</p>
+            <p><b>Full Name:</b> Scarlett Doan</p>
+            <p><b>Date of Birth:</b> 21/09/1991</p>
+            <p><b>Place of Birth:</b> Viet Nam</p>
         </div>
     </header>
     <main>
@@ -29,8 +38,9 @@
                 <p>Nha Trang University, VietNam.</p>
                 <p>Duration: 2009 - 2013</p>
             </div>
+            <hr>
             <div>
-                <h2>SKILLS SUMMARY</h2>
+                <h2 id="skills">SKILLS SUMMARY</h2>
                 <ul>
                     <li><b>Testing methodologies</b>: Black Box & White Box Testing, Integration/System/Acceptance level testing, etc.</li>
                     <li><b>Bug tracking tools</b>: JIRA, Bugzilla, TFS.</li>
@@ -41,28 +51,30 @@
                     <li><b>Database</b>: SQL, Oracle.</li>
                 </ul>
             </div>
+            <hr>
             <div>
-                <h2>WORKING HISTOTY</h2>
+                <h2 id="exp">WORKING HISTOTY</h2>
                 <div>
-                    <a href="https://wearefram.com/contact/" target="_blank>"><h3>Fram Ltd.</h3></a>
+                    <a href="https://wearefram.com/contact/" target="_blank>"><h4>Fram Ltd.</h4></a>
                     <p><i>Duration</i>: 2020 - 2021</p>
                     <p><i>Position</i>: Product Owner</p>
                     <p><i>Responsibilities</i>: Product Owner</p>
                 </div>
                 <div>
-                    <a href="https://www.btmglobal.com/" target="_blank>"><h3>BTM Global</h3></a>
+                    <a href="https://www.btmglobal.com/" target="_blank>"><h4>BTM Global</h4></a>
                     <p><i>Duration</i>: 2019 - 2020</p>
                     <p><i>Position</i>: Business Analyst</p>
                     <p><i>Responsibilities</i>: Business Analyst</p>
                 </div>
                 <div>
-                    <a href="https://nashtechglobal.com/" target="_blank>"><h3>NashTech Ltd.</h3></a>
+                    <a href="https://nashtechglobal.com/" target="_blank>"><h4>NashTech Ltd.</h4></a>
                     <p><i>Duration</i>: 2015 - 2018</p>
                     <p><i>Position</i>: Quality Assurance</p>
                     <p><i>Responsibilities</i>: Quality Assurance</p>
                 </div>
             </div>
         </section>
+        <hr>
         <section>
             <div>
                 <h2>HOBBIES</h2>
@@ -73,6 +85,7 @@
                     <li>Reading book</li>
                 </ul>
             </div>
+            <hr>
             <div>
                 <h2>REFERENCES</h2>
                 <ul>
@@ -81,10 +94,39 @@
                 </ul>
             </div>
         </section> 
+        <hr>
+        <section>
+            <h2 id="chat">CHAT WITH ME</h2>
+            <form>
+                <div>
+                    <label for="name">Tell me your name:</label>
+                    <input type="text" name="name" id="yourname" placeholder="Natasha Romanof">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Tell me your email:</label>
+                    <input type="email" name="email" id="youremail" placeholder="natasha@gmail.com">
+                </div>
+                <br>
+                <div>
+                    <label for="content">What do you want to say with me?</label>
+                    <br>
+                    <textarea name="email" id="content" cols="60" rows="15"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="image">Add an image if any</label>
+                    <input type="file" name="image" id="image" accept="image/png, image/gif, image/jpeg, image/jpg">
+                </div>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
+    <hr>
     <footer>
         <p>
-            <a href="mailto:scarlett.phuong.doan@intigrify.io"><b>Email:</b>Scarlett Doan</a> | <b>Address:</b> Helsinki, Finland | <b>Postal code:</b> 00220</p> <a href="mailto:scarlett.phuong.doan@intigrify.io"><b>Email:</b>Scarlett Doan | <b>Address:</b> Helsinki, Finland | <b>Postal code:</b> 00220
+            <a href="mailto:scarlett.phuong.doan@intigrify.io"><b>Email:</b> Scarlett Doan</a> | <b>Address:</b> Helsinki, Finland | <b>Postal code:</b> 00220
         </p>
     </footer>    
 </body>
